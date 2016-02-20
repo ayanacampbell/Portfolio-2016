@@ -90,7 +90,7 @@ a.highlighted:hover{
 .left .about{
 	position: absolute;
 	bottom: 30px;
-	text-align: justify;
+	text-align: left;
 	width: 80%;
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 40px;
