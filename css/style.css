@@ -90,8 +90,8 @@ a.highlighted:hover{
 .left .about{
 	position: absolute;
 	bottom: 30px;
-	text-align: justify;
-	width: 80%;
+/*	text-align: justify;
+*/	width: 80%;
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 40px;
 }
@@ -180,6 +180,10 @@ a.work-shot{
 
 
 @media screen and (max-width:600px) {
+	.left .about{
+		text-align: none;
+	}
+
 	.wrapper{
 		display: block;
 		height: auto;
@@ -195,6 +199,10 @@ a.work-shot{
 	.left .about{
 		width: 100%;
 		position: static;
+	}
+
+	.left .about .social-link{
+		margin-right: 15px;
 	}
 
 	.right{
