@@ -201,8 +201,8 @@ a.work-shot{
 		position: static;
 	}
 
-	.left .about .social-link{
-		margin-right: 10px;
+	.left .about a.social-link{
+		margin-right: 20px;
 	}
 
 	.right{
