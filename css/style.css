@@ -4,7 +4,6 @@ html{
 
 body{
 	color: #aaa;
-	/*font-family: 'Georgia', serif;*/
 	font-family: 'Lato', sans-serif;
 	height: 100%;
 	line-height: 2;
@@ -92,7 +91,7 @@ a.highlighted:hover{
 	bottom: 30px;
 	text-align: left;
 	width: 80%;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px dotted #ddd;
 	padding-bottom: 40px;
 }
 
@@ -106,7 +105,6 @@ a.highlighted:hover{
 
 .left .about p a:hover{
 	color: #666;
-	/*border-bottom: 1px dotted #666;*/
 }
 
 .left .about a.social-link{
@@ -170,10 +168,11 @@ a.work-shot{
 .blog-link h1::after{
 	content: "Blog Post";
 	color: #999;
+	border: 1px dotted #ddd;
 	font-size: 10px;
 	margin-left: 20px;
 	text-transform: uppercase;
-	background-color: #f2f2f2;
+	/*background-color: #f2f2f2;*/
 	padding: 7px 7px;
 	letter-spacing: 1px;
 	border-radius: 3px;
