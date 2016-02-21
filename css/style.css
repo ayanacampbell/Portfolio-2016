@@ -278,6 +278,7 @@ a.work-shot{
 		width: 100%;
 		padding: 10px;
 		float: none;
+		overflow-x: hidden;
 	}
 
 	a.work-shot{
