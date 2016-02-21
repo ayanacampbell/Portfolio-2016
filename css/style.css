@@ -178,6 +178,60 @@ a.work-shot{
 	/*margin-bottom: 20px;*/
 }
 
+@media screen and (max-width:800px) {
+	.left .about{
+		text-align: left;
+	}
+
+	.wrapper{
+		display: block;
+		height: auto;
+		padding: 0px 20px; 
+	}
+
+	.left{
+		width: 100%;
+		padding: 10px;
+		position: static;
+		margin: 0px 10px;
+	}
+
+	.left .about{
+		width: 100%;
+		position: static;
+	}
+
+	.left .about a.social-link{
+		margin-right: 20px;
+	}
+
+	.right{
+		width: 100%;
+		padding: 10px;
+		float: none;
+		text-align: justify;
+	}
+
+	a.work-shot{
+		display: inline-block;
+		width: 47%;
+		margin: 10px 10px;
+	}
+
+	.work-shot img{
+		width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+		display: inline-block;
+	}
+
+	.blog-link{
+		width: 100%;
+		display: inline-block;
+	}
+
+}
+
 
 @media screen and (max-width:600px) {
 	.left .about{
