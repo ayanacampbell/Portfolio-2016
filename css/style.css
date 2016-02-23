@@ -250,9 +250,6 @@ a.work-shot{
 
 
 @media screen and (max-width:600px) {
-	.left .about{
-		text-align: left;
-	}
 
 	.wrapper{
 		display: block;
@@ -264,6 +261,7 @@ a.work-shot{
 		width: 100%;
 		padding: 10px;
 		position: static;
+		margin: 0px;
 	}
 
 	.left .about{
@@ -279,7 +277,6 @@ a.work-shot{
 		width: 100%;
 		padding: 10px;
 		float: none;
-		overflow-x: hidden;
 	}
 
 	a.work-shot{
