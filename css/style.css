@@ -77,14 +77,13 @@ a.highlighted:hover{
 	background-color: #fff;
 	width: 60%;
 	padding-left: 50px;
-	position: relative;
 }
 
 .left .about{
-	position: absolute;
-	bottom: 30px;
+	position: fixed;
+	bottom: 5%;
 	text-align: left;
-	width: 80%;
+	width: 50%;
 	border-bottom: 1px dotted #ddd;
 	padding-bottom: 40px;
 }
@@ -116,12 +115,13 @@ a.highlighted:hover{
 .right{
 	/*display: inline-block;*/
 	height: 100%;
-	overflow-y: scroll;
+	/*overflow-y: scroll;*/
 	width: 40%;
 	margin: 0 auto;
-	float: left;
-	clear: left;
+	float: right;
+	clear: right;
 	padding: 40px 50px 60px 60px;
+	z-index: 100;
 }
 
 a.work-shot{
