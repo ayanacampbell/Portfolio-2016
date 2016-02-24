@@ -202,14 +202,13 @@ a.work-shot{
 	.wrapper{
 		display: block;
 		height: auto;
-		padding: 0px 20px; 
+		padding: 0px 10px; 
 	}
 
 	.left{
 		width: 100%;
-		padding: 10px;
+		padding: 0px;
 		position: static;
-		margin: 0px 10px;
 	}
 
 	.left .about{
@@ -223,15 +222,15 @@ a.work-shot{
 
 	.right{
 		width: 100%;
-		padding: 10px;
 		float: none;
 		text-align: justify;
+		padding: 0px;
 	}
 
 	a.work-shot{
 		display: inline-block;
-		width: 47%;
-		margin: 10px 10px;
+		width: 48%;
+		margin: 10px 0px;
 	}
 
 	.work-shot img{
