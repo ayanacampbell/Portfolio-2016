@@ -92,6 +92,18 @@ a.highlighted:hover{
 	width: 100px;
 }
 
+.left .about .avy{
+	background-image: url('../images/profile-img.png');
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+}
+
+.left .about .avy:hover{
+	background-image: url('../images/profile-img2.gif');
+}
+
 .left .about p{
 	margin-bottom: 40px;
 }
