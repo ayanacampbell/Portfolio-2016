@@ -159,7 +159,7 @@ a.work-shot{
 	margin-bottom: 30px;
 }
 
-.blog-link{
+.blog-link, .interview-link{
 	border-bottom: 1px dotted #ddd;
 	border-top: 1px dotted #ddd;
 	display: block;
@@ -201,9 +201,25 @@ a.work-shot{
 	vertical-align: middle;
 }*/
 
-.blog-link p{
+.blog-link p, .interview-link p{
 	line-height: 2;
 	margin-bottom: 30px;
+}
+
+.interview-link h1::before{
+	content: "Interview";
+	color: #999;
+	border: 1px dotted #ddd;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 7px 7px;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	display: block;
+	width: 70px;
+	text-align: center;
+	margin-bottom: 20px;
+	
 }
 
 @media screen and (max-width:800px) {
