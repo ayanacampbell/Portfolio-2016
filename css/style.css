@@ -127,9 +127,9 @@ a.highlighted:hover{
 .left .about a.shop::after{
 	content:"new!";
 	color: #fff;
-	background-color: #FF3366;
+	background-color: #2CD798;
 	border-bottom: 0px;
-	border-radius: 100px;
+	border-radius: 3px;
 	font-size: 11px;
 	font-weight: 900;
 	letter-spacing: 1.1px;
