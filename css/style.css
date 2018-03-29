@@ -116,9 +116,9 @@ a.highlighted:hover{
 	margin-bottom: 15px;
 }
 
-/*.left .about .avy:hover{
-	background-image: url('../images/profile-img2.gif');
-}*/
+.left .about .avy:hover{
+	background-image: url('../images/avatar.png');
+}
 
 /*.left .about h1{
 	margin-bottom: 5px;
