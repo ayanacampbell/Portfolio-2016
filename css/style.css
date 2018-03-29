@@ -100,7 +100,6 @@ a.highlighted:hover{
 	bottom: 5%;
 	text-align: left;
 	width: 45%;
-	/*border-bottom: 2px solid #333;*/
 	padding-bottom: 20px;
 }
 
@@ -117,7 +116,8 @@ a.highlighted:hover{
 }
 
 .left .about .avy:hover{
-	background-image: url('../images/avatar.png');
+	background-image: url('../images/avatar.gif');
+	cursor: wait;
 }
 
 /*.left .about h1{
